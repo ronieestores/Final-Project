@@ -78,95 +78,33 @@ ul li.HM a{
 	border-bottom: none;
 }
 
-@media all and (max-width:1920px){
+@media all and (max-width: 500px){
 
-	*{
-		margin: 0;
-		padding: 0;
-		font-family: Arial;
-	}
-	header{
-		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1624.jpg);
-		height: 100vh;
-		background-size: cover;
-		background-position: center;
-		min-height: 100px;
-	}
 	ul{
 		float:right;
 		list-style-type: none;
-		margin-top: 30px;
-		margin-right:330px ;
+		margin-top: 80px;
+		margin-right:25px;
+		font-size: 7px;	
 	}
-	ul li{
-		display: inline-block;
-	}
-	ul li a{
-		text-decoration: none;
-		color: #fff;
-		padding: 5px 20px;
-		border: 1px solid transparent;
-		transition: 0.5s ease;
-	}
-	
-	ul li a:hover{
-		background-color: #F0CAA3;
-		color: #000;
-	}
-	
-	ul li.HM a{
-		background-color:#F0CAA3;
-		color: #000;
-	}
-	
-	.container{
-		max-width: 1200px;
-		margin: auto;
-	}
-	
-	.title{
-		position: absolute;
-		top: 40%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-	}
-	
+
 	.title h1{
 		color: #fff;
-		font-size: 85px;
+		font-size: 50px;
 		text-align: center;
+		margin-top: 20px;
 	}
-	
-	.RN:hover{
-		background-color: #F0CAA3;
-		color: #000;
-	}
-	
+
 	.RN{
 		border: 1px solid #fff;
 		padding: 5px 20px;
 		color: #fff;
 		transition: 0.6s ease;
-		font-size: 18px;
+		font-size: 10px;
 		text-decoration: none;
 		position: absolute;
 		top: 70%;
 		left: 50%;
 		transform: translate(-50%,-50%);
 	}
-	
-	.container ul li:hover ul li:last-child 
-	{
-		border-bottom: none;
-	}
-}
-
-@viewport{
-	zoom:1.0;
-	width: extend-to-zoom;
-}
-
-@-ms-viewport{
-	width: extend-to-zoom;
-	zoom:1.0;
 }
